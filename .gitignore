@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# ---- Streamlit cache ----
+.streamlit/secrets.toml
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Project folders to ignore ----
+data/raw/
+logs/
+notebooks/
+tests/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Pytest ----
+.pytest_cache/
+
+# ---- Mypy ----
+.mypy_cache/
+
+# ---- Coverage ----
+.coverage
+htmlcov/
+
+# ---- General caches ----
+.cache/# Created by pytest automatically.
+
